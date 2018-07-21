@@ -28,16 +28,18 @@
         </ul>
       </div>
     </nav>
+  <ul class="list-group">
+    <li class="list-group-item">
     <fieldset>
     <!--  Form to encode on simple leet -->
     <form action="" method="get" onsubmit="return encode_letters_to_simple_leet()">
       <div class="form-group">
         <legend><b>Encoder Simple leet</b></legend>
-        <label for="simple_leet">Text</label>
-        <input type="simple_leet" name="simple_leet" id="simple_leet"/>
-        <input type="submit" value="Encode"/>
-        <br><br>
-          <div id="simple_leet_msg" style="color: red;">
+        <label for="simple_leet">Text:</label>
+        <input type="simple_leet" class="form-control" name="simple_leet" id="simple_leet"/>
+        <!-- <input type="submit" class="btn btn-default btn-sm" value="Encode"/> -->
+        <br>
+          <div id="simple_leet_msg" style="color: blue;">
           </div>
       </div>
     </form>
@@ -46,11 +48,11 @@
     <form action="" method="get" onsubmit="return encode_letters_to_normal_leet()">
       <div class="form-group">
         <legend><b>Encoder Normal leet</b></legend>
-        <label for="normal_leet">Text</label>
-        <input type="normal_leet" name="normal_leet" id="normal_leet"/>
-        <input type="submit" value="Encode"/>
-        <br><br>
-          <div id="normal_leet_msg" style="color: red;">
+        <label for="normal_leet">Text:</label>
+        <input type="normal_leet" class="form-control" name="normal_leet" id="normal_leet"/>
+        <!-- <input type="submit" class="btn btn-default btn-sm" value="Encode"/> -->
+        <br>
+          <div id="normal_leet_msg" style="color: blue;">
           </div>
       </div>
     </form>
@@ -59,11 +61,11 @@
     <form action="" method="get" onsubmit="return encode_letters_to_ultimate_leet()">
       <div class="form-group">
         <legend><b>Encoder Ultimate leet</b></legend>
-        <label for="ultimate_leet">Text</label>
-        <input type="ultimate_leet" name="ultimate_leet" id="ultimate_leet"/>
-        <input type="submit" value="Encode"/>
-        <br><br>
-          <div id="ultimate_leet_msg" style="color: red;">
+        <label for="ultimate_leet">Text:</label>
+        <input type="ultimate_leet" class="form-control" name="ultimate_leet" id="ultimate_leet"/>
+        <!-- <input type="submit" class="btn btn-default btn-sm" value="Encode"/> -->
+        <br>
+          <div id="ultimate_leet_msg" style="color: blue;">
           </div>
       </div>
     </form>
@@ -72,29 +74,29 @@
     <form action="" method="get" onsubmit="return encode_letters_to_heavy_leet()">
       <div class="form-group">
         <legend><b>Encoder Heavy leet</b></legend>
-        <label for="heavy_leet">Text</label>
-        <input type="heavy_leet" name="heavy_leet" id="heavy_leet"/>
-        <input type="submit" value="Encode"/>
-        <br><br>
-          <div id="heavy_leet_msg" style="color: red;">
+        <label for="heavy_leet">Text:</label>
+        <input type="heavy_leet" class="form-control" name="heavy_leet" id="heavy_leet"/>
+        <!-- <input type="submit" class="btn btn-default btn-sm" value="Encode"/> -->
+        <br>
+          <div id="heavy_leet_msg" style="color: blue;">
           </div>
       </div>
     </form>
 
     <!--  Form to decode from leet -->
-    <hr>
     <form action="" method="get" onsubmit="return decode_letters_from_leet()">
       <div class="form-group">
         <legend><b>Decoder from leet (Beta2)</b></legend>
-        <label for="decode_leet">Text</label>
-        <input type="decode_leet" name="decode_leet" id="decode_leet"/>
-        <input type="submit" value="Decode"/>
-        <br><br>
+        <label for="decode_leet">Text:</label>
+        <input type="decode_leet" class="form-control" name="decode_leet" id="decode_leet"/>
+        <!-- <input type="submit" class="btn btn-default btn-sm" value="Decode"/> -->
+        <br>
           <div id="decode_leet_msg" style="color: red;">
           </div>
       </div>
     </form>
     </fieldset>
+    </li>
 
       <script type="text/javascript">
       // Function to encode to simple leet

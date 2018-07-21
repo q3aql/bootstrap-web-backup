@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <title>QCloud - Cloud</title>
+  <link href="img/favicon.png" rel="icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Login and Registration Form with HTML5 and CSS3" />
+  <meta name="keywords" content="html5, css3, form, switch, animation, :target, pseudo-class" />
+  <meta name="author" content="Codrops" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h3>QCloud - Cloud</h3>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li><a href=".">Login users</a></li>
+          <li><a href="create.html">Create user</a></li>
+          <li><a href="../">Back</a></li>
+        </ul>
+      </div>
+    </nav>
+		<ul class="list-group">
+		<li class="list-group-item">
+        <a class="hiddenanchor" id="toregister"></a>
+        <a class="hiddenanchor" id="tologin"></a>
+        <div id="wrapper">
+          <div id="login">
+            <form  class="form-inline" action="go.php" autocomplete="on" method="POST">
+              <h3>Create New User</h3><br>
+              <p>
+                <label for="username" class="uname" data-icon="u" > Your username: </label>
+                <input id="username" class="form-control" name="usern" required="required" type="text" placeholder="myusername"/>
+              </p>
+              <p>
+                <label for="password" class="youpasswd" data-icon="p"> Your password: </label>
+                <input id="password" class="form-control" name="pass" required="required" type="password" placeholder="eg. mypass" />
+              </p>
+              <p class="login button">
+                <input class="btn btn-default" type="submit" value="Create" />
+              </p>
+            </form>
+          </div>
+
+        </div>
+      </div>
+      </li>
+</body>
+</html>
