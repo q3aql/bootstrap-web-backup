@@ -191,10 +191,11 @@ $MAX_UPLOAD_SIZE = min(asBytes(ini_get('post_max_size')), asBytes(ini_get('uploa
 ?>
 <!DOCTYPE html>
 <html><head>
-	<link href="../../icon/favicon2.png" rel="icon">
+	<title>SAI - Scripts y Aplicaciones</title>
+	<link href="../ico/sai.ico" rel="icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<link rel="stylesheet" href="../../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
 <style>
 body {font-family: "lucida grande","Segoe UI",Arial, sans-serif; font-size: 14px;width:1024;padding:1em;margin:0;}
 th {font-weight: normal; color: #1F75CC; background-color: #F0F9FF; padding:.5em 1em .5em .2em;
@@ -452,20 +453,14 @@ $(function(){
 </script>
 </head><body>
 <div class="container">
-    <h3>QCloud - Files</h3>
+    <h3>SAI - Scripts y Aplicaciones para GNU/Linux (LLiurex)</h3>
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <ul class="nav navbar-nav">
-          <li ><a href="../../">Home</a></li>
-          <li><a href="../../aria2/">aria2</a></li>
-          <li><a href="../../leet/">L33t</a></li>
-          <li><a href=".">Files</a></li>
-          <li><a href="../../cloud/">Cloud</a></li>
-          <li><a href="../../irc/">IRC</a></li>
-          <li><a href="../../sai/">SAI</a></li>
-          <li><a href="https://github.com/q3aql">Github</a></li>
-          <li><a href="https://lin4all.wordpress.com/">Blog</a></li>
-          <li><a href="https://github.com/q3aql/bootstrap-web-backup">Source code</a></li>
+          <li><a href="../">Inicio</a></li>
+          <li><a href="../cambios/">Cambios</a></li>
+          <li><a href=".">Temporal</a></li>
+          <li><a href="../../">Atras</a></li>
         </ul>
       </div>
     </nav>
