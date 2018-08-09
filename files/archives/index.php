@@ -465,7 +465,7 @@ $(function(){
           <li><a href="../../sai/">SAI</a></li>
           <li><a href="https://github.com/q3aql">Github</a></li>
           <li><a href="https://lin4all.wordpress.com/">Blog</a></li>
-          <li><a href="https://github.com/q3aql/bootstrap-web-backup">Source code</a></li>
+          <li><a href="https://github.com/q3aql/bootstrap-web-backup">Source</a></li>
         </ul>
       </div>
     </nav>
